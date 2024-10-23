@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickCalligraphy - About Us</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts for Calligraphy -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@400;700&family=Allura&display=swap" rel="stylesheet">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">QuickCalligraphy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="container py-5">
+        <h2 class="text-center">About QuickCalligraphy</h2>
+        <p class="text-center mt-3">
+            QuickCalligraphy is a platform dedicated to making the art of calligraphy accessible to everyone. Whether you are a beginner or a seasoned artist, our goal is to inspire creativity through beautifully written words and designs. Our website provides resources, tutorials, and a community of passionate artists ready to explore calligraphy from various cultures.
+        </p><br><br>
+        
+        <!-- Mission and Vision Section -->
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h3 class="mb-3">Our Mission</h3>
+                <p>Our mission is to help people express themselves through the timeless art of calligraphy. We provide tools and resources that allow artists to learn, practice, and enhance their calligraphy skills.</p>
+            </div>
+            <div class="col-md-6">
+                <h3 class="mb-3">Our Vision</h3>
+                <p>We envision a world where the art of calligraphy is revived and celebrated globally. We strive to make calligraphy an approachable, creative, and enjoyable practice for people of all ages and skill levels.</p>
+            </div>
+        </div>
+    </section><br><br><br><br><br><br><br><br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; 2024 QuickCalligraphy. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Add this script to your main pages to enable smooth scrolling -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
