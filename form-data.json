@@ -1,0 +1,27 @@
+{
+  "seller": {
+    "name": "ali tahir",
+    "cnic": "4210119939381",
+    "father": "muhammad tahir",
+    "religion": "muslim",
+    "address": "nfjkkjhksfhjhjsdfhkehfke"
+  },
+  "purchaser": {
+    "name": "daniyal tahir",
+    "cnic": "4210163998607",
+    "father": "muhammad athir",
+    "religion": "muslim",
+    "address": "nsbdkdhskf"
+  },
+  "property": {
+    "type": "flat",
+    "makanType": null,
+    "summary": "Flat in a residential apartment",
+    "marketValue": "102020",
+    "districtValue": "111199",
+    "fbrValue": "155656"
+  },
+  "uploadedFiles": [
+    "1745694816606-Screenshot 2024-04-24 071255.png"
+  ]
+}
